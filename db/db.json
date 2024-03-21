@@ -1,15 +1,10 @@
 {
-  "user": [
+  "users": [
     {
-      "name": "Jalal",
+      "id": "325a",
       "email": "jalalhabeeb@gmail.com",
+      "name": "Jalal Habeeb",
       "password": "jalal123"
-    },
-    {
-      "id": "5f88",
-      "name": "Habeeb",
-      "email": "jalalhabeeb@gmail.com",
-      "password": "Habeeb123"
     }
   ]
 }

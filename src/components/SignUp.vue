@@ -31,8 +31,8 @@ export default {
 
       console.warn(result)
       if(result.status === 201) {
-        alert("Signed up successfully");
         localStorage.setItem('user-info', JSON.stringify(result.data))
+        this.$router.push({name: "HomePage"})
       }
     }
   }
@@ -53,18 +53,9 @@ export default {
   border: 1px solid skyblue;
   border-radius: 5px;
 }
-.register input {
-  width: 300 px;
-  height: 40px;
-  padding-left: 20px;
-  display: block;
-  margin: auto auto 30px auto;
-  border: 1px solid skyblue;
-  border-radius: 5px;
-}
 
 .register button {
-  width: 320px;
+  width: 300px;
   height: 40px;
   border: 1px solid skyblue;
   border-radius: 5px;
